@@ -1,0 +1,49 @@
+.full-bg-style{
+    background-color: black;
+   
+}
+
+.home-banner-header{
+    font-size: 70px;
+    font-weight: 900;
+    background: -webkit-linear-gradient(#f81f01, #ee076e);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  line-height: 70px;
+}
+
+.about-header-1{
+    font-size: 60px;
+    font-weight: 900;
+}
+
+.bg-second{
+    background-color: rgb(32, 31, 31);
+}
+
+.services-header-1{
+    font-size: 60px;
+    font-weight: 900;
+}
+
+.link-style{
+    text-decoration: none;
+}
+
+.col-style:hover{
+    background: linear-gradient(#f81f01, #ee076e);
+    border-radius: 10px;
+    
+
+}
+
+.fun-fact-bg{
+    background-color: rgb(32, 31, 31);
+
+}
+
+.temp-position{
+    position: relative;
+    bottom: 10px;
+}
+
