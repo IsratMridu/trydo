@@ -9,6 +9,7 @@ import Header from './Components/Header/Header';
 import About from './Components/View/About/About';
 import Contact from './Components/View/Contact/Contact';
 import Home from './Components/View/Home/Home';
+import Services from './Components/View/Services/Services';
 
 const AppRoutes = () => {
     return (
@@ -23,6 +24,9 @@ const AppRoutes = () => {
             </Routes>
             <Routes>
                 <Route path='contact' element={<Contact/>}/>
+            </Routes>
+            <Routes>
+                <Route path='services' element={<Services/>}/>
             </Routes>
             <Footer></Footer>
             </BrowserRouter>

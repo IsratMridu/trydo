@@ -128,3 +128,11 @@
 .bg-sec{
     background-color: whitesmoke;
 }
+
+.services-title{
+    font-size: 50px;
+    background: -webkit-linear-gradient(290deg,#f81f01, #ee076e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}

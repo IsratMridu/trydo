@@ -28,7 +28,9 @@ const Footer = () => {
                     <div className='left-footer-relative'>
                         <p>READY TO DO THIS</p>
                         <h1>Let's get <br/> to work </h1>
+                        <Link to='contact'>
                         <button className='btn btn-danger mt-3 px-5 py-3  fw-bold'>CONTACT US</button>
+                        </Link>
                     </div>
 
                     
