@@ -6,7 +6,7 @@ import logo from '../../Assets/Images/logo.png'
 const Header = () => {
     return (
         <div className=''>
-             <Navbar  sticky="top" collapseOnSelect expand="lg">
+             <Navbar  collapseOnSelect expand="lg">
         <Container>
         <Navbar.Brand >
         <img className='custom-brand d-inline-block align-top'

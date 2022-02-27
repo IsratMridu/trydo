@@ -47,3 +47,25 @@
     bottom: 10px;
 }
 
+.partners-list{
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+
+.partners-list img:hover{
+    padding: 5px;
+}
+
+.second-partners-list{
+    display: flex;
+    background-color: white;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.second-partners-list img:hover{
+    padding: 5px;
+}
