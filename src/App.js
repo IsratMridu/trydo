@@ -4,7 +4,7 @@ import './CSS/home.css'
 
 function App() {
   return (
-    <div className="full-bg-style pb-5 pt-2">
+    <div className="full-bg-style pt-2">
       <AppRoutes/>
      
     </div>

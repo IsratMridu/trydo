@@ -69,3 +69,62 @@
 .second-partners-list img:hover{
     padding: 5px;
 }
+
+.linkStyle{
+    text-decoration: none;
+}
+
+.symbol-style:hover{
+    color: aliceblue;
+    position: relative;
+    transform: translateY(-5px);
+    transition: 1s;
+}
+
+.navbar-contact-style:hover{
+    position: relative;
+    transform: translateY(-5px);
+    transition: 1s;
+}
+
+.left-footer-style{
+    background: linear-gradient(#f81f01, #ee076e);
+    opacity: 95%;
+}
+
+.left-footer-relative{
+    position: relative;
+    margin-top: -350px; ;
+   
+}
+
+.left-footer-relative h1{
+    font-size: 70px;
+    font-weight: 900;
+    color: white;
+}
+
+.left-footer-relative p {
+    font-size: 20px;
+    color: white;
+
+}
+
+.position-style{
+    margin-top: -120px;
+}
+
+.contact-number-style{
+    color: gray;
+   
+
+}
+.contact-number-style:hover{
+    color: red;
+   
+
+}
+
+.bg-sec{
+    background-color: whitesmoke;
+}

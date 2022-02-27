@@ -6,6 +6,8 @@ import {
   } from "react-router-dom";
 import Footer from './Components/Footer/Footer';
 import Header from './Components/Header/Header';
+import About from './Components/View/About/About';
+import Contact from './Components/View/Contact/Contact';
 import Home from './Components/View/Home/Home';
 
 const AppRoutes = () => {
@@ -15,8 +17,12 @@ const AppRoutes = () => {
             <Header></Header>
             <Routes>
                 <Route path='/' element={<Home/>}/>
-
-              
+            </Routes>
+            <Routes>
+                <Route path='about' element={<About/>}/>
+            </Routes>
+            <Routes>
+                <Route path='contact' element={<Contact/>}/>
             </Routes>
             <Footer></Footer>
             </BrowserRouter>

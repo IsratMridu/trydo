@@ -17,30 +17,30 @@ import partner9 from '../../../Assets/Images/partner-9.png'
 const Home = () => {
     return (
         <div className=''>
-           <h1 className='home-banner-header  text-white container'>A DIGITAL <br/> AGENCY</h1>
+           <h1 className='home-banner-header pt-5  text-white container'>A DIGITAL <br/> AGENCY</h1>
 
            {/* Strategy, Development, Marketing */}
-           <div className='container'>
-               <div className='row d-flex'>
+           <div className='container pt-5'>
+               <div className='row d-flex pb-5'>
                    <div className='col-lg-4 col-md-6 col-sm-12'>
-                       <img src={business} alt='business_logo'/>
-                       <h3 className='text-white'>Business Strategy</h3>
-                       <p className='text-secondary h5'>There are many variations of passages of Lorem Ipsum available, but the majority have suffered.</p>
+                       <img src={business} alt='business_logo' className='py-3'/>
+                       <h3 className='text-white py-2'>Business Strategy</h3>
+                       <p className='text-secondary h5 py-2'>There are many variations of passages of Lorem Ipsum available, but the majority have suffered.</p>
 
                        
 
                    </div>
                    <div className='col-lg-4 col-md-6 col-sm-12'>
-                   <img src={website} alt='website_logo'/>
-                   <h3 className='text-white'>Website Development</h3>
-                   <p className='text-secondary h5'>There are many variations of passages of Lorem Ipsum available, but the majority have suffered.</p>
+                   <img src={website} alt='website_logo' className='py-3'/>
+                   <h3 className='text-white py-2'>Website Development</h3>
+                   <p className='text-secondary h5 py-2'>There are many variations of passages of Lorem Ipsum available, but the majority have suffered.</p>
 
 
                    </div>
                    <div className='col-lg-4 col-md-6 col-sm-12'>
-                   <img src={marketing} alt='marketing_logo'/>
-                   <h3 className='text-white'>Marketing and Reporting</h3>
-                   <p className='text-secondary h5'>There are many variations of passages of Lorem Ipsum available, but the majority have suffered.</p>
+                   <img src={marketing} alt='marketing_logo' className='py-3'/>
+                   <h3 className='text-white py-2'>Marketing and Reporting</h3>
+                   <p className='text-secondary h5 py-2'>There are many variations of passages of Lorem Ipsum available, but the majority have suffered.</p>
 
 
                    </div>
@@ -70,11 +70,11 @@ const Home = () => {
                                <div className='row py-5 row-cols-lg-2 row-cols-md-2 row-cols-sm-2'>
                                    <div className='col'>
                                        <h1 className='text-white'>Who we are</h1>
-                                       <p className='text-secondary h5'>There are many vtions of passages <br/> of Lorem Ipsum available, but the <br/> majority have suffered.</p>
+                                       <p className='text-secondary h5'>There are many vtions of passages  of Lorem Ipsum available, but the  majority <br/> have suffered.</p>
                                    </div>
                                    <div className='col'>
                                        <h1 className='text-white'>Who we are</h1>
-                                       <p className='text-secondary h5'>There are many vtions of passages <br/> of Lorem Ipsum available, but the <br/> majority have suffered.</p>
+                                       <p className='text-secondary h5'>There are many vtions of passages  of Lorem Ipsum available, but the  majority <br/> have  suffered.</p>
                                    </div>
 
                                </div>
@@ -95,8 +95,8 @@ const Home = () => {
            <div className='container py-5'>
                <div className='row mx-auto'>
                    <div className='col-lg-4 col-md-6 col-sm-12 '>
-                       <h1 className='services-header-1 text-white'>Services</h1>
-                       <p className='text-secondary h5'>There are many variations of passages of  <br/> Lorem Ipsum available, but the majority <br/> have suffered alteration.</p>
+                       <h1 className='services-header-1 text-white pb-3 pt-4'>Services</h1>
+                       <p className='text-secondary h5 pb-4'>There are many variations of passages of  <br/> Lorem Ipsum available, but the majority <br/> have suffered alteration.</p>
 
                       <Link className='link-style' to='/browse'>
                       <button className='btn btn-outline-danger px-3 py-2 fw-bold '>Request Custom Service</button>
@@ -106,16 +106,16 @@ const Home = () => {
                    <div className='col-lg-8 col-md-6 col-sm-12'>
                        <div className='row row-cols-lg-2 row-cols-md-2 row-cols-sm-1 mx-auto py-3'>
                        <div className='col col-style p-3'>
-                               <img src={business} alt='img'/>
-                               <h3 className='text-white'>Business Strategy</h3>
-                               <p className='text-white h5'>I throw myself down among the tall grass by the stream as I lie close to the earth.</p>
+                               <img src={business} alt='img' className='py-2'/>
+                               <h3 className='text-white py-2'>Business Strategy</h3>
+                               <p className='text-white h5 py-2'>I throw myself down among the tall grass by the stream as I lie close to the earth.</p>
 
 
                            </div>
                            <div className='col col-style p-3'>
-                               <img src={business} alt='img'/>
-                               <h3 className='text-white'>Website Development</h3>
-                               <p className='text-white h5'>I throw myself down among the tall grass by the stream as I lie close to the earth.</p>
+                               <img src={business} alt='img' className='py-2'/>
+                               <h3 className='text-white py-2'>Website Development</h3>
+                               <p className='text-white h5 py-2'>I throw myself down among the tall grass by the stream as I lie close to the earth.</p>
 
 
                            </div>
@@ -123,16 +123,16 @@ const Home = () => {
                        </div>
                        <div className='row row-cols-lg-2 row-cols-md-2 row-cols-sm-1 mx-auto py-3'>
                        <div className='col col-style p-3'>
-                               <img src={business} alt='img'/>
-                               <h3 className='text-white'>Marketing & Reporting</h3>
-                               <p className='text-white h5'>I throw myself down among the tall grass by the stream as I lie close to the earth.</p>
+                               <img src={business} alt='img' className='py-2'/>
+                               <h3 className='text-white py-2'>Marketing & Reporting</h3>
+                               <p className='text-white h5 py-2'>I throw myself down among the tall grass by the stream as I lie close to the earth.</p>
 
 
                            </div>
                            <div className='col col-style p-3'>
-                               <img src={business} alt='img'/>
-                               <h3 className='text-white'>Mobile App Development</h3>
-                               <p className='text-white h5'>I throw myself down among the tall grass by the stream as I lie close to the earth.</p>
+                               <img src={business} alt='img' className='py-2'/>
+                               <h3 className='text-white py-2'>Mobile App Development</h3>
+                               <p className='text-white h5 py-2'>I throw myself down among the tall grass by the stream as I lie close to the earth.</p>
 
 
                            </div>
@@ -150,19 +150,19 @@ const Home = () => {
                    <h1 className='text-center text-white'>Our Fun Facts</h1>
 
                    <div className='row pt-5 text-center'>
-                       <div className='col-lg-4 col-md-6 col-sm-4'>
-                           <h1 className='text-white'>199<span className='temp-position'>+</span></h1>
+                       <div className='col-lg-4 col-md-6 col-sm-4 pb-4'>
+                           <h1 className='text-danger pb-3'>199<span className='temp-position'>+</span></h1>
                            <p className='text-secondary h5'>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those.</p>
 
 
                        </div>
-                       <div className='col-lg-4 col-md-6 col-sm-4'>
-                       <h1 className='text-white'>575<span className='temp-position'>+</span></h1>
+                       <div className='col-lg-4 col-md-6 col-sm-4 pb-4'>
+                       <h1 className='text-danger pb-3'>575<span className='temp-position'>+</span></h1>
                        <p className='text-secondary h5'>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those.</p>
 
                        </div>
-                       <div className='col-lg-4 col-md-6 col-sm-4'>
-                       <h1 className='text-white'>69<span className='temp-position'>+</span></h1>
+                       <div className='col-lg-4 col-md-6 col-sm-4 pb-4'>
+                       <h1 className='text-danger pb-3'>69<span className='temp-position'>+</span></h1>
                        <p className='text-secondary h5'>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those.</p>
 
                        </div>
@@ -176,7 +176,7 @@ const Home = () => {
            {/* Partners Section */}
 
            <div className='bg-white py-5'>
-               <div className='container'>
+               <div className='container pb-5'>
 
                
                <div className='partners-list container py-4'>

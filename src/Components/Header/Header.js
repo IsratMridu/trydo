@@ -30,7 +30,8 @@ const Header = () => {
           <Navbar.Collapse>
           <Nav className="ms-auto">
           <Nav.Link as={Link} to='/contact'>
-              <button className="btn btn-outline-warning px-3 fw-bold">Contact</button>
+              <button className="btn btn-outline-warning px-3 fw-bold
+              navbar-contact-style">Contact</button>
           </Nav.Link>
           </Nav>
           </Navbar.Collapse>
