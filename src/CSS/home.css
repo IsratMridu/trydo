@@ -136,3 +136,94 @@
     -webkit-text-fill-color: transparent;
     
 }
+
+.marketing-service-style{
+    background-color: whitesmoke;
+}
+
+
+.marketing-service-style h1 {
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.img-style{
+    width: 43px;
+    height: 43px;
+}
+
+.strategy-service-style{
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.hover-style:hover{
+    background-color: white;
+    border-radius: 10px;
+    position: relative;
+    transition: 0.5s;
+    transform: translateY(-10px);
+}
+
+.hover-styles:hover{
+    background-color: gainsboro;
+    border-radius: 10px;
+    position: relative;
+    transition: 0.5s;
+    transform: translateY(-10px);
+}
+
+.agency-service-style{
+    border-radius: 10px;
+    position: relative;
+    transition: 0.5s;
+    transform: translateY(-10px);
+}
+
+.about-header-style{
+    background: -webkit-linear-gradient(290deg,#f81f01, #ee076e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.about-page-p{
+    font-size: 18px;
+
+}
+
+
+
+.fun-fact-h1{
+    background: -webkit-linear-gradient(#f81f01, #ee076e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.skilled-team-h1{
+    font-size: 50px;
+    text-align: center;
+    font-weight: 900;
+}
+
+.skilled-team-p{
+    font-size: 18px;
+
+}
+
+/* .skilled-employee :hover{
+  
+    
+    transition: 0.5s;
+    transform: rotateY(90deg);
+} */
+
+.desc-img-hover img:hover{
+    transition: 0.5s;
+    transform: scale(1.1);
+
+}
+
+.bg-secondd{
+    background-color: whitesmoke;
+}
