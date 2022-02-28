@@ -30,6 +30,37 @@ const About = () => {
     );
   };
 
+  const handleFatima = () => {
+    setIntro("FATIMA ASRAFY - COO, AMERIMAR ENTERPRISES, INC.");
+    setDescription("Fatima Asrafy standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections Bonorum et Malorum original.");
+  }
+
+  const handleJannat = () =>{
+    setIntro("JANNAT TUMPA - COO, AMERIMAR ENTERPRISES, INC.");
+    setDescription("Jannat Tumpa The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections Bonorum et Malorum original.");
+  }
+
+  const handleDue = () => {
+    setIntro("JOHNS DUE - COO, AMERIMAR ENTERPRISES, INC.");
+    setDescription("Standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections Bonorum et Malorum original.");
+  }
+
+
+  const handleDoe = () => {
+    setIntro("JOHN DOE - COO, AMERIMAR ENTERPRISES, INC.");
+    setDescription("John Doe The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections Bonorum et Malorum original.");
+  }
+
+  const handleOrthi = () => {
+    setIntro("AMAR ORTHI - COO, AMERIMAR ENTERPRISES, INC.");
+    setDescription("Chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections Bonorum et Malorum original.");
+  }
+
+  const handleFatimaMa = () => {
+    setIntro("");
+    setDescription("");
+  }
+
   return (
     <div className="">
       <h1 className="text-white py-5 text-center strategy-service-style about-header-style">
@@ -166,7 +197,14 @@ const About = () => {
 
       {/* Testimony of staffs and employees */}
 
-      
+      <div className="bg-secondd py-5">
+        <div className="container text-center mx-auto">
+          <h1 className="pb-5 pt-4">{description}</h1>
+          <h6  className="text-secondary">{intro}</h6>
+
+        </div>
+
+      </div>
 
 
       {/* Images of staff and employees */}
@@ -184,42 +222,42 @@ const About = () => {
                 alt="desc_image"
               />
             </div>
-            <div className="col-lg-3 col-md-4 col-sm-6 col-6 text-center desc-img-hover">
+            <div onClick={handleFatima} className="col-lg-3 col-md-4 col-sm-6 col-6 text-center desc-img-hover">
               <img
                 src={desc2}
                 className="img-fluid rounded-3"
                 alt="desc_image"
               />
             </div>
-            <div className="col-lg-3 col-md-4 col-sm-6 col-6 text-center desc-img-hover">
+            <div onClick={handleJannat} className="col-lg-3 col-md-4 col-sm-6 col-6 text-center desc-img-hover">
               <img
                 src={desc3}
                 className="img-fluid rounded-3"
                 alt="desc_image"
               />
             </div>
-            <div className="col-lg-3 col-md-4 col-sm-6 col-6 text-center desc-img-hover">
+            <div onClick={handleDue} className="col-lg-3 col-md-4 col-sm-6 col-6 text-center desc-img-hover">
               <img
                 src={desc4}
                 className="img-fluid rounded-3"
                 alt="desc_image"
               />
             </div>
-            <div className="col-lg-3 col-md-4 col-sm-6 col-6 text-center desc-img-hover">
+            <div onClick={handleDoe} className="col-lg-3 col-md-4 col-sm-6 col-6 text-center desc-img-hover">
               <img
                 src={desc5}
                 className="img-fluid rounded-3"
                 alt="desc_image"
               />
             </div>
-            <div className="col-lg-3 col-md-4 col-sm-6 col-6 text-center desc-img-hover">
+            <div onClick={handleOrthi} className="col-lg-3 col-md-4 col-sm-6 col-6 text-center desc-img-hover">
               <img
                 src={desc6}
                 className="img-fluid rounded-3"
                 alt="desc_image"
               />
             </div>
-            <div className="col-lg-3 col-md-4 col-sm-6 col-6 text-center desc-img-hover">
+            <div onClick={handleFatimaMa} className="col-lg-3 col-md-4 col-sm-6 col-6 text-center desc-img-hover">
               <img
                 src={desc7}
                 className="img-fluid rounded-3"
