@@ -17,12 +17,11 @@ const Header = () => {
       </Navbar.Brand>
       <Navbar.Toggle className='bg-white'/>
       <Navbar.Collapse>
-          <Nav className="ms-auto">
+          <Nav className="ms-auto ms-style">
             <Nav.Link as={Link} className="text-white link_style" to='/'>Home</Nav.Link>
             <Nav.Link as={Link} className="text-white" to='/services'>Service</Nav.Link>
             <Nav.Link as={Link} className="text-white" to='/about'>About</Nav.Link>
-            <Nav.Link as={Link} className="text-white" to='/pages'>Page</Nav.Link>
-            <Nav.Link as={Link} className="text-white" to='/blocks'>Blocks</Nav.Link>
+           <Nav.Link as={Link} className="text-white" to='/blog'>Blog</Nav.Link>
            
             
           </Nav>
@@ -30,7 +29,7 @@ const Header = () => {
           <Navbar.Collapse>
           <Nav className="ms-auto">
           <Nav.Link as={Link} to='/contact'>
-              <button className="btn btn-outline-warning px-3 fw-bold
+              <button className="btn btn-outline-warning text-danger px-3 fw-bold
               navbar-contact-style">Contact</button>
           </Nav.Link>
           </Nav>

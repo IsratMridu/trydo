@@ -16,7 +16,7 @@ const element3 = <FontAwesomeIcon icon={faStarAndCrescent} />
 const Footer = () => {
     return (
         <div className='py-5 '>
-            <div className='row py-2 '>
+            <div className='row pb-2 '>
                 <div className='col-lg-6 col-md-12 col-sm-12 text-center position-style
                  container'>
                     <div className='left-footer-style rounded-3 '>

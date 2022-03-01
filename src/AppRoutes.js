@@ -7,6 +7,7 @@ import {
 import Footer from './Components/Footer/Footer';
 import Header from './Components/Header/Header';
 import About from './Components/View/About/About';
+import Blog from './Components/View/Blog/Blog';
 import Contact from './Components/View/Contact/Contact';
 import Home from './Components/View/Home/Home';
 import Services from './Components/View/Services/Services';
@@ -27,6 +28,9 @@ const AppRoutes = () => {
             </Routes>
             <Routes>
                 <Route path='services' element={<Services/>}/>
+            </Routes>
+            <Routes>
+                <Route path='blog' element={<Blog/>}/>
             </Routes>
             <Footer></Footer>
             </BrowserRouter>

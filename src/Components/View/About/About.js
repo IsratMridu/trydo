@@ -13,6 +13,15 @@ import desc5 from "../../../Assets/Images/desc5.jpg";
 import desc6 from "../../../Assets/Images/test-6.jpg";
 import desc7 from "../../../Assets/Images/desc7.jpg";
 import desc8 from "../../../Assets/Images/resc-8.jpg";
+import partner1 from '../../../Assets/Images/partner-1.png'
+import partner2 from '../../../Assets/Images/partner-2.png'
+import partner3 from '../../../Assets/Images/partner-3.png'
+import partner4 from '../../../Assets/Images/partner-4.png'
+import partner5 from '../../../Assets/Images/partner-5.png'
+import partner6 from '../../../Assets/Images/partner-6.png'
+import partner7 from '../../../Assets/Images/partner-7.png'
+import partner8 from '../../../Assets/Images/partner-8.png'
+import partner9 from '../../../Assets/Images/partner-9.png'
 
 const About = () => {
   const [intro, setIntro] = useState(
@@ -21,44 +30,120 @@ const About = () => {
   const [description, setDescription] = useState(
     "Aklima The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections Bonorum et Malorum original."
   );
-  // const [active, setActive]= useState(false);
+  const [circle1,setCircle1] = useState(true);
+  const [circle2,setCircle2] = useState(false);
+  const [circle3,setCircle3] = useState(false);
+  const [circle4,setCircle4] = useState(false);
+  const [circle5,setCircle5] = useState(false);
+  const [circle6,setCircle6] = useState(false);
+  const [circle7,setCircle7] = useState(false);
+  const [circle8,setCircle8] = useState(false);
 
   const handleAklima = () => {
     setIntro("AKLIMA - COO, AMERIMAR ENTERPRISES, INC.");
     setDescription(
       "Aklima The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections Bonorum et Malorum original."
     );
+    setCircle1(true);
+    setCircle2(false);
+    setCircle3(false);
+    setCircle4(false);
+    setCircle5(false);
+    setCircle6(false);
+    setCircle7(false);
+    setCircle8(false);
   };
 
   const handleFatima = () => {
     setIntro("FATIMA ASRAFY - COO, AMERIMAR ENTERPRISES, INC.");
     setDescription("Fatima Asrafy standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections Bonorum et Malorum original.");
+    setCircle1(false);
+    setCircle2(true);
+    setCircle3(false);
+    setCircle4(false);
+    setCircle5(false);
+    setCircle6(false);
+    setCircle7(false);
+    setCircle8(false);
   }
 
   const handleJannat = () =>{
     setIntro("JANNAT TUMPA - COO, AMERIMAR ENTERPRISES, INC.");
     setDescription("Jannat Tumpa The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections Bonorum et Malorum original.");
+    setCircle1(false);
+    setCircle2(false);
+    setCircle3(true);
+    setCircle4(false);
+    setCircle5(false);
+    setCircle6(false);
+    setCircle7(false);
+    setCircle8(false);
   }
 
   const handleDue = () => {
     setIntro("JOHNS DUE - COO, AMERIMAR ENTERPRISES, INC.");
     setDescription("Standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections Bonorum et Malorum original.");
+    setCircle1(false);
+    setCircle2(false);
+    setCircle3(false);
+    setCircle4(true);
+    setCircle5(false);
+    setCircle6(false);
+    setCircle7(false);
+    setCircle8(false);
   }
 
 
   const handleDoe = () => {
     setIntro("JOHN DOE - COO, AMERIMAR ENTERPRISES, INC.");
     setDescription("John Doe The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections Bonorum et Malorum original.");
+    setCircle1(false);
+    setCircle2(false);
+    setCircle3(false);
+    setCircle4(false);
+    setCircle5(true);
+    setCircle6(false);
+    setCircle7(false);
+    setCircle8(false);
   }
 
   const handleOrthi = () => {
     setIntro("AMAR ORTHI - COO, AMERIMAR ENTERPRISES, INC.");
     setDescription("Chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections Bonorum et Malorum original.");
+    setCircle1(false);
+    setCircle2(false);
+    setCircle3(false);
+    setCircle4(false);
+    setCircle5(false);
+    setCircle6(true);
+    setCircle7(false);
+    setCircle8(false);
   }
 
   const handleFatimaMa = () => {
-    setIntro("");
-    setDescription("");
+    setIntro("FATIMA MA - COO, AMERIMAR ENTERPRISES, INC.");
+    setDescription("The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections Bonorum et Malorum original.");
+    setCircle1(false);
+    setCircle2(false);
+    setCircle3(false);
+    setCircle4(false);
+    setCircle5(false);
+    setCircle6(false);
+    setCircle7(true);
+    setCircle8(false);
+  }
+
+  const handleCummins = () =>{
+    setIntro("JON CUMMINS - COO, AMERIMAR ENTERPRISES, INC.");
+    setDescription("Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections Bonorum et Malorum original.");
+    setCircle1(false);
+    setCircle2(false);
+    setCircle3(false);
+    setCircle4(false);
+    setCircle5(false);
+    setCircle6(false);
+    setCircle7(false);
+    setCircle8(true);
   }
 
   return (
@@ -221,6 +306,10 @@ const About = () => {
                 className="img-fluid rounded-3"
                 alt="desc_image"
               />
+              {
+                circle1 && 
+                <span className="dot-circle-style"></span>
+              }
             </div>
             <div onClick={handleFatima} className="col-lg-3 col-md-4 col-sm-6 col-6 text-center desc-img-hover">
               <img
@@ -228,6 +317,10 @@ const About = () => {
                 className="img-fluid rounded-3"
                 alt="desc_image"
               />
+              {
+                circle2 && 
+                <span className="dot-circle-style"></span>
+              }
             </div>
             <div onClick={handleJannat} className="col-lg-3 col-md-4 col-sm-6 col-6 text-center desc-img-hover">
               <img
@@ -235,6 +328,10 @@ const About = () => {
                 className="img-fluid rounded-3"
                 alt="desc_image"
               />
+              {
+                circle3 && 
+                <span className="dot-circle-style"></span>
+              }
             </div>
             <div onClick={handleDue} className="col-lg-3 col-md-4 col-sm-6 col-6 text-center desc-img-hover">
               <img
@@ -242,6 +339,10 @@ const About = () => {
                 className="img-fluid rounded-3"
                 alt="desc_image"
               />
+              {
+                circle4 && 
+                <span className="dot-circle-style"></span>
+              }
             </div>
             <div onClick={handleDoe} className="col-lg-3 col-md-4 col-sm-6 col-6 text-center desc-img-hover">
               <img
@@ -249,6 +350,10 @@ const About = () => {
                 className="img-fluid rounded-3"
                 alt="desc_image"
               />
+              {
+                circle5 && 
+                <span className="dot-circle-style"></span>
+              }
             </div>
             <div onClick={handleOrthi} className="col-lg-3 col-md-4 col-sm-6 col-6 text-center desc-img-hover">
               <img
@@ -256,6 +361,10 @@ const About = () => {
                 className="img-fluid rounded-3"
                 alt="desc_image"
               />
+              {
+                circle6 && 
+                <span className="dot-circle-style"></span>
+              }
             </div>
             <div onClick={handleFatimaMa} className="col-lg-3 col-md-4 col-sm-6 col-6 text-center desc-img-hover">
               <img
@@ -263,17 +372,59 @@ const About = () => {
                 className="img-fluid rounded-3"
                 alt="desc_image"
               />
+              {
+                circle7 && 
+                <span className="dot-circle-style"></span>
+              }
             </div>
-            <div className="col-lg-3 col-md-4 col-sm-6 col-6 text-center desc-img-hover">
+            <div onClick={handleCummins} className="col-lg-3 col-md-4 col-sm-6 col-6 text-center desc-img-hover">
               <img
                 src={desc8}
                 className="img-fluid rounded-3"
                 alt="desc_image"
               />
+              {
+                circle8 && 
+                <span className="dot-circle-style"></span>
+              }
             </div>
           </div>
         </div>
       </div>
+
+      {/* Partners Logo */}
+
+      <div className='bg-white py-5'>
+               <div className='container pb-5'>
+
+               
+               <div className='partners-list container py-4'>
+                   <img src={partner1} alt='partner' className='img-fluid' />
+                   <img src={partner2} alt='partner'  className='img-fluid' />
+                   <img src={partner3} alt='partner'  className='img-fluid' />
+                   <img src={partner4} alt='partner'  className='img-fluid' />
+                   <img src={partner5} alt='partner'  className='img-fluid' />
+
+
+               </div>
+               <div className='container py-4'>
+                   <div className='container'>
+                   <div className='container second-partners-list'>
+                       <img src={partner6} alt='partner'  className='img-fluid' />
+                       <img src={partner7} alt='partner'  className='img-fluid' />
+                       <img src={partner8} alt='partner'  className='img-fluid' />
+                       <img src={partner9} alt='partner'  className='img-fluid' />
+
+                   </div>
+
+                   </div>
+                  
+               </div>
+               </div>
+
+           </div>
+
+
     </div>
   );
 };

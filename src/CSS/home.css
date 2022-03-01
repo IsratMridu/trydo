@@ -56,7 +56,8 @@
 }
 
 .partners-list img:hover{
-    padding: 5px;
+    transition: 0.5s;
+    transform: scale(1.1);
 }
 
 .second-partners-list{
@@ -67,7 +68,8 @@
 }
 
 .second-partners-list img:hover{
-    padding: 5px;
+    transition: 0.5s;
+    transform: scale(1.1);
 }
 
 .linkStyle{
@@ -226,4 +228,65 @@
 
 .bg-secondd{
     background-color: whitesmoke;
+}
+
+.dot-circle-style{
+    height: 10px;
+  width: 10px;
+  background-color: red;
+  border-radius: 50%;
+  display: inline-block;
+  z-index: 100;
+  position: relative;
+  bottom: 32px;
+  right: 9px;
+
+}
+
+/* .ms-style{
+    position: relative;
+    right: 30px;
+
+} */
+
+.bg-blog-style1{
+    background-image: url(../Assets/Images/blog1.jpg);
+    background-repeat: no-repeat;
+    height: 530px;
+    border-radius: 10px;
+}
+
+.bg-blog-style2{
+    background-image: url(../Assets/Images/blog2.jpg);
+    background-repeat: no-repeat;
+    height: 530px;
+    border-radius: 10px;
+}
+
+.bg-blog-style3{
+    background-image: url(../Assets/Images/blog3.jpg);
+    background-repeat: no-repeat;
+    height: 530px;
+    border-radius: 10px;
+}
+
+.bg-blog-style4{
+    background-image: url(../Assets/Images/blog4.jpg);
+    background-repeat: no-repeat;
+    height: 530px;
+    border-radius: 10px;
+}
+
+.bg-blog-style5{
+    background-image: url(../Assets/Images/blog1.jpg);
+    background-repeat: no-repeat;
+    height: 530px;
+    border-radius: 10px;
+}
+
+.bg-blog-style6{
+    background-image: url(../Assets/Images/blog2.jpg);
+    background-repeat: no-repeat;
+    height: 530px;
+    border-radius: 10px;
 }
