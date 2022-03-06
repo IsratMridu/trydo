@@ -92,6 +92,9 @@ const Footer = () => {
                             </div>
 
                         </div>
+                        <div>
+                            <p className='text-secondary h5 text-center pt-5'>Copyright &copy; 2021 Rainbow-Themes. All Rights Reserved. </p>
+                        </div>
 
                     </div>
 

@@ -26,7 +26,9 @@ const Blog = () => {
           <p>Development</p>
               <h4>Getting tickets to the big show</h4>
               <br/>
-              <Button variant="contained" color="error" className="mb-2">Explore</Button>
+             <Link to='/blogDetails' className="blog-details-style">
+             <Button variant="contained" color="error" className="mb-2">Explore</Button>
+             </Link>
           </div>
           </div>
           <div className="col bg-blog-style2 d-flex align-items-end">
@@ -34,7 +36,9 @@ const Blog = () => {
           <p>Management</p>
               <h4>A big ticket gone to be an interesting</h4>
               <br/>
-              <Button variant="contained" color="error" className="mb-2">Explore</Button>
+              <Link to='/blogDetails'  className="blog-details-style">
+             <Button variant="contained" color="error" className="mb-2">Explore</Button>
+             </Link>
           </div>
           </div>
           <div className="col bg-blog-style3 d-flex align-items-end">
@@ -42,7 +46,9 @@ const Blog = () => {
           <p>Design</p>
               <h4>The home of the future could bebes</h4>
               <br/>
-              <Button variant="contained" color="error" className="mb-2">Explore</Button>
+              <Link to='/blogDetails'  className="blog-details-style">
+             <Button variant="contained" color="error" className="mb-2">Explore</Button>
+             </Link>
           </div>
           </div>
           <div className="col bg-blog-style4 d-flex align-items-end">
@@ -50,7 +56,9 @@ const Blog = () => {
           <p>Development</p>
               <h4>Getting tickets to the big sgit how</h4>
               <br/>
-              <Button variant="contained" color="error" className="mb-2">Explore</Button>
+              <Link to='/blogDetails'  className="blog-details-style">
+             <Button variant="contained" color="error" className="mb-2">Explore</Button>
+             </Link>
           </div>
           </div>
           <div className="col bg-blog-style5 d-flex align-items-end">
@@ -58,7 +66,9 @@ const Blog = () => {
           <p>Management</p>
               <h4>A big ticket gone to be an interesting</h4>
               <br/>
-              <Button variant="contained" color="error" className="mb-2">Explore</Button>
+              <Link to='/blogDetails'  className="blog-details-style">
+             <Button variant="contained" color="error" className="mb-2">Explore</Button>
+             </Link>
           </div>
           </div>
           <div className="col bg-blog-style6 d-flex align-items-end">
@@ -66,7 +76,9 @@ const Blog = () => {
           <p>Design</p>
               <h4>The home of the future could bebes</h4>
               <br/>
-              <Button variant="contained" color="error" className="mb-2">Explore</Button>
+              <Link to='/blogDetails'  className="blog-details-style">
+             <Button variant="contained" color="error" className="mb-2">Explore</Button>
+             </Link>
           </div>
           </div>
         </div>
